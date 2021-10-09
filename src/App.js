@@ -1,8 +1,8 @@
 import './App.css';
 import CounterClass from './Components/CounterClass';
 import CounterFunction from './Components/CounterFunction';
-import Header from './Components/Header';
-
+import Header from './Components/Header/Header';
+import cashOn from './Components/cashOn';
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <Header/>
       <CounterClass/>
       <CounterFunction/>
+      <cashOn/>
     </div>
   );
 }
